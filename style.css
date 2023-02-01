@@ -1,0 +1,248 @@
+:root{
+	--maincolor: #267487;
+	--dua-color: #35A1BB;
+	--tiga-color: #7BF7FF;
+}
+
+/* NAVBAR */
+nav{
+	width: 100%;
+    z-index: 10;
+    transition: 0.3s;
+}
+.nav-bg-clr{
+    background: var(--dua-color);
+
+}
+.navbar-brand.fs-3 {
+	color: var(--tiga-color);
+}
+
+.nav-link.active{
+	color: var(--tiga-color)!important;
+	font-weight: 700;
+}
+
+/* END NAVBAR */
+
+
+
+/* HERO */
+ #hero{
+ 	min-height: 100vh;
+    background: var(--maincolor);
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ }
+#hero .container{
+}
+#hero .row {
+	
+}
+
+ #hero h1{
+ 	font-size: 3rem;
+ 	color: white;
+ }
+
+#hero h1 span{
+	color: var(--tiga-color);
+}
+ #hero h2{
+	font-weight:600;
+	color: white;
+}
+#hero p{
+	color: white;
+}
+
+ #hero span{
+ 	color: var(--tiga-color);
+ }
+
+#hero .btn-costum1{
+ 	background: var(--tiga-color);
+ 	color: var(--maincolor);
+ 	text-align: center;
+ 	font-weight: 700;
+ 	font-size: 1.2rem;
+ 	min-width: 150px;
+ 	height: 45px;
+ 	border-radius: 5px;
+ 	transition: .3s;
+ }
+
+ #hero .btn-costum1:hover{
+ 	box-shadow: 0 0 5px  rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+
+ } 
+ /*#hero .isi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }*/
+ /*#hero .col-5.gambar{
+ 	margin-right: -95px;
+    margin-bottom: -500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }*/
+
+
+ .social-icon{
+ 	margin-top: 90px;
+ 	margin-bottom: -16px;
+ 	 }
+.social-icon p{
+ 	font-weight: 700;
+ 	color:var(--tiga-color)!important;
+
+ }
+
+ .social-icon a img{
+ 	margin-right: .7em;
+ 	margin-bottom: 10px;
+ 	padding: 5px;
+ 	transition: .3s;
+ }
+ .social-icon a img:hover{
+ 	background: var(--dua-color);
+ 	padding: 5px;
+ 	border-radius: 50%;
+ 	box-shadow: 0 0 5px 1px rgba(0, 0, 0, .3);
+
+ }
+/* END HERO */
+
+
+/* ABOUT */
+    #about {
+        background: var(--maincolor);
+        min-height: 100vh;
+        width: 100%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #about .container-fluid{
+         min-height: 400px;
+        width: 100%;
+        background: var(--dua-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #about hr{
+        width: 35%;
+        height: 5px;
+        color: white;
+        margin: 0 auto;
+        opacity: 100%;
+        margin-bottom: 15px;
+    }
+    #about h1{
+        color: var(--tiga-color);
+        font-weight: 800;
+    }
+/* AKHIR ABOUT */
+
+/* PROJECT */
+    #project{
+        height: 100vh;
+        width: 100%;
+        background: var(--maincolor);
+        
+    }
+
+    #project .row h1{
+        color: var(--tiga-color);
+        font-weight: 800;
+    }
+    #project .row hr{
+        width: 35%;
+        height: 5px;
+        color: white;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        opacity: 100%;
+     }
+
+
+/* AKHIR PRODUCT */
+
+/* KONTAK */
+    #contact{
+        width: 100%;
+        height: 100vh;
+        background: var(--dua-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #contact .row h1{
+        color: var(--tiga-color);
+        font-weight: 800;
+    }
+    #contact .row hr{
+       width: 35%;
+        height: 5px;
+        color: white;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        opacity: 100%;       
+
+    }
+
+    #contact .frm{
+        margin-top: 50px;
+    }
+
+    #contact label{
+        color: var(--tiga-color);
+    }
+    #contact button {
+        background: var(--tiga-color);
+        color: var(--maincolor);
+        font-weight: 600;
+    }
+    #contact button:hover {
+        opacity: 0.8;
+        box-shadow: 0 0 5px  rgba(0, 0, 0, .5);
+    }
+
+
+/* END KKONTAK */
+
+
+/* FOOTER */
+    footer {
+        background: var(--maincolor);
+        color: white;
+    }
+
+    footer img{
+        margin-top: 22px;
+    }
+    footer .icon-footer{
+        margin-bottom: 15px;
+    }
+    footer .icon-footer a {
+        margin:5px;
+    }
+    footer .icon-footer a img{
+        margin-top: -20px;
+        transition: .3s;
+    }
+
+    footer .icon-footer a img:hover{
+        background: var(--dua-color);
+        padding: 5px;
+        border-radius: 50%;
+        box-shadow: 0 0 5px 1px rgba(0, 0, 0, .3);
+    }
+/* END FOOTER */

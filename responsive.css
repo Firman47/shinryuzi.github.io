@@ -1,0 +1,122 @@
+/* PC */
+@media screen and (max-width:1280px){
+	#hero h1{
+		font-size: 2.3rem;
+	}
+	#hero p{
+		font-size: .9rem;
+	}
+
+}
+/* PC */
+
+
+
+
+/* TABLET */
+@media screen and (max-width:768px){
+	#hero {
+		padding-top: 30px;
+	}
+	#hero .gambar img{
+		width: 40%;
+
+	}
+
+ 	
+}
+/* TABLET */
+
+
+
+
+/* MOBILE LENSCEP*/
+@media screen and (max-width:576px){
+	#hero .gambar img{
+		margin-top: 60px;
+		width: 37%;
+	}
+	#hero h1{
+		font-size: 1.7rem;
+
+	}
+	#hero h2 {
+		font-size: 1.4rem;
+	}
+	#hero p{
+		font-size: 0.8rem;
+	}
+	#hero .btn-costum1{
+		width: 80%;
+	}
+	#hero .social-icon{
+	}
+
+
+
+	#about .container-fluid{
+		min-height: 110vh;
+	}
+	#hero h1 {
+		font-size: 1.7rem;
+	}
+	#about p {
+		text-align: justify ;
+	}
+	#about hr{
+		width: 75%;
+	}
+	#about .container-fluid{
+	}
+
+
+
+
+	#project .row hr{
+		width: 75%;
+	}
+	h1{
+		font-size: 1.7rem;
+	}
+
+	#project .col-md-12.d-flex{
+       flex-direction: column;
+    }
+
+    #project{
+    	height: 180vh;
+    	display: flex;
+    	align-items: center;
+    	justify-content: center;
+    }
+
+
+
+    #contact h1{
+    	font-size: 1.7rem;
+    }
+	#contact .container hr{
+		width: 75%;
+	}
+
+
+
+	footer .gambar img{
+		width: 15%;
+	}
+
+}
+/* MOBILE */
+
+
+
+
+/* MOBILE NORMAL */
+@media screen and (max-width:350px){
+	#project .container .row{
+		dis
+		flex-direction: column;
+	}
+
+}
+/* MOBILE NORMAL */
