@@ -32,6 +32,10 @@
 
 /* MOBILE LENSCEP*/
 @media screen and (max-width:576px){
+
+	nav{
+	}
+
 	#hero .gambar img{
 		margin-top: 60px;
 		width: 37%;
@@ -51,11 +55,18 @@
 	}
 	#hero .social-icon{
 	}
+	.social-icon{
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
 
 
 
+	#about{
+		min-height: 150vh;
+	}
 	#about .container-fluid{
-		min-height: 110vh;
+		min-height: 130vh;
 	}
 	#hero h1 {
 		font-size: 1.7rem;
@@ -112,11 +123,4 @@
 
 
 /* MOBILE NORMAL */
-@media screen and (max-width:350px){
-	#project .container .row{
-		dis
-		flex-direction: column;
-	}
-
-}
 /* MOBILE NORMAL */
